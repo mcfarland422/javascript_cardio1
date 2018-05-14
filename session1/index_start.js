@@ -3,7 +3,10 @@
 // ex. reverseString('hello') === 'olleh'
 
 function reverseString(str) {
-  return 'Let\'s Start'
+  // const strArr = str.split(''); // split characters into an array
+  // strArr.reverse(); // reverse array
+  // return strArr.join('');  // join array characters back into a string
+  return str.split('').reverse().join('');
 }
 
 
